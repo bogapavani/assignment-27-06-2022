@@ -1,0 +1,126 @@
+.plant {
+    background: rgba(0, 0, 0, .6);
+    padding: 27px 113px 36px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 690px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: -50px;
+    color: #fff;
+
+}
+p{
+    margin-left: 101px;
+    /* font-family: "Trade Gothic Light"; */
+}
+.file{
+    margin-left: 101px;
+}
+.button{
+    background-color: #006341;
+    padding: 30px;
+    font-weight: 400;
+    font-family: "Trade Gothic Bold 2";
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    min-height: auto;
+    margin-left: 101px;
+    border: 0px;
+    
+}
+
+.background {
+    background-image: url('https://cf-store.widencdn.net/mccormick/7/d/6/7d627e01-a0fb-4d30-a2be-3413cc2da9fe.jpg?response-content-disposition=inline%3B%20filename%3D%22headerother70contactus1200x400px.jpg%22&Expires=1656072989&Signature=fOslromZR4r~X0iPvNS-eDb~X-fo1wKlGK8GzJx4-wX-OYYKGXJHGEW62znGZwrqhPhA-rOUDRSvCjhY-7TqZj9~ex1L-73sShu88HEoisvUN1dLFqT0SS4YbdHQIBcosESnWw6ODFb84C8rwRKUiX-WXufsShQlDl6Adowk46w35orQmfZyjAqKa2VC-UJ32biryDIx7HF7GxYs3yyYRknVyUnKpunK1DCmcxIFVUm3OSd7w1Ws2Ix546-DwyTbaeOEqedRQmSTnmn0UalpyzrhkQth6wWkDR10vH0y4EpKYg0luB0aFJ6OXsvD1ruONYi3t8oal1JR05mrMzxWSQ__&Key-Pair-Id=APKAJD5XONOBVWWOA65A');
+    height: 500px;
+
+    background-repeat: no-repeat;
+    margin-left: 100px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    /* overflow: hidden; */
+    /* position: fixed; */
+    background-color: #006341;
+    display: flex;
+    width: 100%;
+
+}
+
+.garden {
+    margin-left: 100px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    /* font-size: 20px;
+    font-family: "Bree Serif", serif; */
+    /* background-color: #ddd; */
+    color: green;
+}
+
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 600px;
+    height: 40px;
+    margin-left: 101px;
+}
+
+.textarea {
+    width: 500px;
+    height: 300px;
+    margin-left: 101px;
+}
+
+.input_type {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    line-height: 1.2;
+}
+
+h5 {
+    font-family: 'Bree Serif', serif;
+    color: #5d5d5d;
+    font-size: 24px;
+    margin-left: 101px;
+}
+
+label {
+    margin-left: 101px;
+}
+h4{
+    margin-left: 101px;
+}

@@ -1,0 +1,111 @@
+.farmstyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background-color: #DEE5CC;
+    width: 69%;
+    margin-left: 12%;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 10%;
+    /* background-color: #DEE5CC; */
+}
+.paragraph
+{
+    font-size: 20px;
+    color: white;
+    font-family: "Trade Gothic LT W01 Roman";
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 20px;
+    color: #000;
+    font-family: "Trade Gothic LT W01 Roman";
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    color: #333;
+    font-size: 42px;
+}
+
+.plant {
+    background: rgba(0, 0, 0, .6);
+    padding: 27px 113px 36px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 690px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: -50px;
+    color: #fff;
+
+}
+
+.background {
+    background-image: url("https://cf-store.widencdn.net/mccormick/0/0/d/00d08c5b-5c05-4969-931d-b37c5a28de26.jpg?response-content-disposition=inline%3B%20filename%3D%22our_story_header3.jpg%22&Expires=1656072200&Signature=D1bG968kKlm95Omyi3pRAs8B89-4XIuVu0uQxxAS-XJONuJAjAaOvIR-P27MQeDD5rQ5oLwKZQPRVnlqGp2zBKdpSw9EUMssRvUs~U4fLcxW~oC9nBrK5XP2qtBKVGeVTFNy-7orNCRpN0V~KveMkPgV1edkiSAYbVsFrIE7o6e6p9ttUG3ClAwpqEFI0TncOueBD6z2T5JrxtTk1CEyQEA34KhMZL~gIsFrMBm0EOaoSAG4447l5Ou1Gv3rd73miXf4M3IBRLftPbGJLMaby2l7H8D6l0B8S3pX0I3lP6hmHeQxnx3c9uYljIGB85nzgdTOKVSO1PzLaHrwzVPfzQ__&Key-Pair-Id=APKAJD5XONOBVWWOA65A");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    /* overflow: hidden; */
+    /* position: fixed; */
+    background-color: #006341;
+    display: flex;
+    width: 100%;
+
+}
+
+.garden {
+    margin-left: 100px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    /* font-size: 20px;
+    font-family: "Bree Serif", serif; */
+    /* background-color: #ddd; */
+    color: green;
+}
+
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}

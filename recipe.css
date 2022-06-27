@@ -1,0 +1,93 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    /* overflow: hidden; */
+    /* position: fixed; */
+    background-color: #006341;
+    display: flex;
+    width: 100%;
+
+}
+
+.garden {
+    margin-left: 100px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    font-size: 20px;
+    font-family: "Bree Serif", serif;
+    /* background-color: #ddd; */
+    color: green;
+}
+
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images {
+    border: 0px;
+    border-radius: 20px;
+}
+
+.plant {
+    background: rgba(0, 0, 0, .6);
+    padding: 27px 113px 36px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 690px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: -50px;
+    color: #fff;
+
+}
+/* .input{
+    width: 10px;
+    height: 10px;
+} */
+
+
+.background {
+    background-image: url("https://cf-store.widencdn.net/mccormick/c/0/7/c07dcccb-db2e-4b63-94fa-c50af9bbc270.jpg?response-content-disposition=inline%3B%20filename%3D%22recipe_lander_4.jpg%22&Expires=1656073265&Signature=PbM~G2eXcNNtAiuim-Ui6WdNQF0WDKDPYmevCh1fHuov3vwhCFNbHLi3oGcpdaZd7IPmSJSTQo1tbsiqoggoynTgsZzMZ92rKJRV~r5SybJ6E1knBtyrxFDNJT-RSMZj3DgJcsTtoKL8Q4fZM0DuTdPLJVZ2UjZM28x9VNw5g-muM5ahdz72f1THtSj7pg5OgMU8UkEiDJ0yKgLsKqqesGNEpF3Lg9Oawu~c-XkhpTHkcRO8Us1iCO2kdgXvrFchxi2yjHCqrtiZJYAhRzU4m2VjzS88008fzmzY9y61~k98rE8uISEVu~39137w1WKRYLRcU0eeu7OmS1TYNH8HBg__&Key-Pair-Id=APKAJD5XONOBVWWOA65A");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    /* margin-top: 100px; */
+
+}
+
+h1 {
+    font-family: 'Bree Serif', serif;
+    color: #333;
+    font-size: 42px;
+    margin-left: 10px;
+}
+
+.discover {
+    display: flex;
+    justify-content: space-between;
+}

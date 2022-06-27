@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="garden">
+            <img
+                src="https://d1e3z2jco40k3v.cloudfront.net/-/media/1d61c06944de4d62b4ead6e393611003.png?h=101&iar=0&w=131&rev=5fb1726cf48a4be4915a86735defa02a&hash=E95FA2E6411378EF4299F7122D7066A6">
+        </div>
+        <a href="recipe.html">
+            <h6>Recipes</h6>
+        </a>
+        <a href="ourproduct.html">
+            <h6>Our Products</h6>
+        </a>
+        <a href="ourstory.html">
+            <h6>Our Story</h6>
+        </a>
+        <a href="contact.html">
+            <h6>Contact Us</h6>
+        </a>
+    </div>
+    <div class="background">
+        <div class="plant">
+            <h2>Contact Us</h2>
+            <p><b>Looking to find one of our products in a store near you? Click here! You can also check our
+                    discontinued product list to confirm if a product is available.</b>
+            </p>
+        </div>
+    </div>
+    <div>
+        <h5>Have a question about one of our products or our site?</h3>
+            <p>Search our FAQ’s below. If this is an urgent matter, or if you need immediate assistance, please call us
+                at
+                1-888-878-3663 (M-F 9am-7pm EST).</p>
+
+    </div>
+    <form>
+        <div>
+            <label>*Email Address</label><br>
+            <input class="input" type="text">
+        </div><br><br>
+        <div>
+            <label>*Confirm Email Address</label><br>
+            <input class="input" type="text">
+        </div><br><br>
+        <div>
+            <label>*Product Name</label><br>
+            <input class="input" type="text">
+        </div><br><br>
+        <div>
+            <label>*UPC</label><br>
+            <input class="input" type="text">
+        </div><br><br>
+        <div>
+            <label>Best By/Date Code</label><br>
+            <input class="input" type="text">
+        </div><br><br>
+        <div>
+            <label>*Comments</label><br>
+            <textarea class="textarea"></textarea>
+        </div>
+        <div class="input_type">
+            <div>
+                <label>*First Name</label><br>
+                <input class="input" type="text">
+            </div>
+            <div>
+                <label>Last Name</label><br>
+                <input class="input" type="text">
+            </div>
+        </div><br><br>
+        <div class="input_type">
+            <div>
+                <label>Address</label><br>
+                <input class="input" type="text">
+            </div>
+            <div>
+                <label>
+                    *City</label><br>
+                <input class="input" type="text">
+            </div>
+        </div><br><br>
+        <div class="input_type">
+            <div>
+                <label>*Country</label><br>
+                <input class="input" type="text">
+            </div>
+            <div>
+                <label>*ZIP Code</label><br>
+                <input class="input" type="text">
+            </div>
+        </div><br><br>
+        <div class="input_type">
+            <div>
+                <label>State/Province</label><br>
+                <input class="input" type="text">
+            </div>
+            <div>
+                <label>Daytime Phone</label><br>
+                <input class="input" type="text">
+            </div>
+        </div><br><br>
+        <p>You can attach a photo or screen shot of a product or other items here. Providing us a photo or screen shot,
+            that
+            includes the "Best by" Date and/or UPC, can help ensure we understand your query.</p>
+        <div>
+            <h4>Attach a .PDF, .jpg, .gif, or .png file (Max size: 2MB)</h4>
+            <input type="file" class="file">
+        </div><br><br>
+        <input type="submit" value="SEND" class="button" onclick="validateForm()">
+        <br>
+        <p><i>*All Required</i></p>
+    </form>
+    <script>
+        function validateForm() {
+            // let x = document.forms["myForm"].value;
+            // if (x == "") {
+                alert("All Categories must be filled out");
+                // return false;
+            // }
+        }
+    </script>
+    <footer>
+        <p>Copyright © 2022 Botanical Food Company, Pty Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>Grid</h1>
+  <p>This example demonstrates a 50%/50% split on small, medium and large devices. On extra small devices, it will stack (100% width).</p>      
+  <p>Resize the browser window to see the effect.</p>      
+  <div class="row">
+    <div class="col-sm-6" style="background-color:yellow;">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+    <div class="col-sm-6" style="background-color:pink;">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
+    </div>
+  </div>
+</div>
+    
+</body>
+</html> -->

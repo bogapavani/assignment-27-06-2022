@@ -1,0 +1,143 @@
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image_background {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 136px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 12px;
+    background: red;
+    z-index: 0;
+}
+
+.plant {
+    background: rgba(0, 0, 0, .6);
+    padding: 27px 113px 36px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 690px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-bottom: -50px;
+    color: #fff;
+
+}
+
+.background {
+    background-image: url("https://d1e3z2jco40k3v.cloudfront.net/-/media/project/oneweb/gg21/gg2021-products/gourmet-garden-profuct-family-us-v2.jpg?rev=4784db7c80f646ffb1fafc9ea7b14dcb&vd=20210522T044612Z&extension=webp&hash=3E6FDA4C5719C17CA884FDFBC6A816D6");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+
+}
+
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    /* overflow: hidden; */
+    /* position: fixed; */
+    background-color: #006341;
+    display: flex;
+    width: 100%;
+
+}
+
+.garden {
+    margin-left: 100px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    /* font-size: 20px;
+    font-family: "Bree Serif", serif; */
+    /* background-color: #ddd; */
+    color: green;
+}
+
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    color: #5d5d5d;
+    font-size: 42px;
+    line-height: 1.3;
+}
+
+h3 {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    display: block;
+    text-transform: uppercase;
+}
+.button{
+    background-color: green;
+    color: white;
+    /* align-items: center;
+    text-align: center; */
+    margin-left: 42%;
+}
+.location{
+    /* color: white; */
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(120, 190, 32);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 60px;
+}
+.location_1{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background: rgb(120, 190, 32);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    /* margin-right: 60px; */
+}
+ .cirle{
+    color: white;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin-left: 48p;
+    margin-left: 12px;
+    /* margin-top: 60px; */
+    font-size: 35px;
+} 
+.map{
+    display: flex;
+}
